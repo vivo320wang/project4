@@ -1,0 +1,125 @@
+@media (max-width: 550px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: "Source Sans Pro";
+    background-color: #e3eef4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.5%;
+  }
+
+  div {
+    width: 15.5rem;
+  }
+
+  .allfirst {
+    background-color: white;
+    height: 13.3rem;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+
+  .join {
+    color: #4bbebd;
+  }
+
+  .first {
+    color: #d4e38b;
+    display: flex;
+    width: 90%;
+    border: 1px solid red;
+    margin-bottom: 0.5rem;
+    margin-left: 1.1rem;
+  }
+
+  .paragraph.one {
+    width: 90%;
+    line-height: 1.8;
+    margin-left: 1.1rem;
+    color: #a7abb7;
+  }
+
+  .allsecond {
+    background-color: #2bb3b1;
+    height: 11.4rem;
+  }
+  .second,
+  .two {
+    margin-left: 1.1rem;
+  }
+
+  .allthird {
+    background-color: #4abebd;
+    height: 11.4rem;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+
+  .monthly,
+  .why {
+    color: white;
+  }
+
+  .second {
+    display: flex;
+    color: white;
+    font-size: 1.7rem;
+    border: 1px solid red;
+    margin-top: -0.5rem;
+  }
+  span {
+    font-size: 0.8rem;
+    font-weight: 200;
+    margin-left: 0.6rem;
+    align-self: center;
+    border: 1px solid red;
+  }
+
+  .paragraph.two {
+    margin-top: -1rem;
+  }
+
+  button {
+    background-color: #bfdf32;
+    width: 132px;
+    height: 25px;
+    position: absolute;
+    border-radius: 3px;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 1.1rem;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 1.2rem;
+    margin-top: 1.2rem;
+  }
+  h4 {
+    font-size: 0.8rem;
+  }
+
+  p,
+  table {
+    font-size: 0.7rem;
+  }
+
+  .two,
+  table {
+    color: white;
+  }
+
+  table {
+    padding-left: 1rem;
+    margin-top: -0.4rem;
+    border-spacing: 0;
+  }
+}
