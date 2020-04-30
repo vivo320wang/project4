@@ -1,99 +1,203 @@
-@media (max-width: 550px) {
+@media (max-width: 1550px) {
   html {
     font-size: 62.5%;
   }
 
   body {
-    font-family: "Source Sans Pro";
-    background-color: #e3eef4;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-top: 7.5%;
+    font-family: "Source Sans Pro";
+    background-color: #e3eef4;
   }
 
-  div {
-    width: 15.5rem;
-  }
-
-  .allfirst {
-    background-color: white;
-    height: 13.3rem;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-  }
-
-  .join {
-    color: #4bbebd;
-  }
-
-  .first {
-    color: #d4e38b;
+  section {
     display: flex;
-    width: 90%;
-    border: 1px solid red;
-    margin-bottom: 0.5rem;
-    margin-left: 1.1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 50rem;
   }
 
-  .paragraph.one {
-    width: 90%;
-    line-height: 1.8;
-    margin-left: 1.1rem;
-    color: #a7abb7;
-  }
-
-  .allsecond {
-    background-color: #2bb3b1;
-    height: 11.4rem;
-  }
-  .second,
-  .two {
-    margin-left: 1.1rem;
-  }
-
-  .allthird {
-    background-color: #4abebd;
-    height: 11.4rem;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+  h3 {
+    font-size: 2rem;
   }
 
   .monthly,
   .why {
     color: white;
+    margin-top: 2.8rem;
+    font-size: 1.55rem;
+    margin-left: 3.3rem;
   }
 
   .second {
     display: flex;
     color: white;
-    font-size: 1.7rem;
-    border: 1px solid red;
-    margin-top: -0.5rem;
+    margin-top: 0;
+    margin-left: 3rem;
+    font-size: 2.8rem;
   }
+
   span {
-    font-size: 0.8rem;
+    color: rgb(99, 207, 209);
+    font-size: 1.3rem;
     font-weight: 200;
-    margin-left: 0.6rem;
-    align-self: center;
-    border: 1px solid red;
+    margin-left: 1rem;
+    align-items: center;
+    margin-top: 0.7rem;
+  }
+
+  .two,
+  table {
+    color: white;
+  }
+
+  .allfirst {
+    background-color: white;
+    height: 17.2rem;
+    width: 50.8rem;
+    margin-top: 12.2rem;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    align-self: stretch;
+  }
+
+  .join {
+    color: #4bbebd;
+    margin-left: 3.3rem;
+  }
+
+  .first {
+    color: #d4e38b;
+    font-size: 1.55rem;
+    display: flex;
+    width: 90%;
+    margin-bottom: 0.5rem;
+    margin-left: 3.3rem;
+  }
+
+  .paragraph.one {
+    width: 85%;
+    line-height: 1.8;
+    margin-left: 3.3rem;
+    color: #a7abb7;
+    font-size: 1.35rem;
+  }
+
+  .allsecond {
+    background-color: #2bb3b1;
+    height: 20.6rem;
+    width: 25rem;
   }
 
   .paragraph.two {
-    margin-top: -1rem;
+    margin-top: -2.1rem;
+    margin-left: 2.8rem;
   }
 
   button {
     background-color: #bfdf32;
-    width: 132px;
-    height: 25px;
+    width: 190px;
+    height: 39px;
     position: absolute;
     border-radius: 3px;
     border: none;
+    margin-top: 1.5rem;
+    margin-left: 2.8rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .allthird {
+    background-color: #4abebd;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 20.6rem;
+    width: 25rem;
+    border-bottom-right-radius: 7px;
+  }
+
+  table {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  body {
+    margin-top: 7.5%;
+    align-items: center;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  .allfirst {
+    height: 13.3rem;
+    width: 15.5rem;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    margin-top: 0;
+  }
+
+  .join {
+    margin-left: 1.1rem;
+  }
+
+  .first {
+    color: #d4e38b;
+    font-size: 0.85em;
+    display: flex;
+    width: 90%;
+    margin-bottom: 0.5rem;
+    margin-left: 1.1rem;
+  }
+
+  .paragraph.one {
+    margin-left: 1.1rem;
+    font-size: 0.7rem;
+  }
+
+  .allsecond {
+    height: 11.4rem;
+    width: 15.5rem;
+    border-bottom-left-radius: none;
+  }
+
+  .two {
+    margin-left: 1.1rem;
+  }
+
+  .allthird {
+    height: 11.4rem;
+    width: 15.5rem;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+
+  .second {
+    font-size: 1.7rem;
+    margin-top: -0.5rem;
+    margin-left: 1.1rem;
+  }
+
+  span {
+    font-size: 0.8rem;
+    margin-left: 0.7rem;
+    align-items: center;
+    margin-top: 0.7rem;
+  }
+
+  .paragraph.two {
+    margin-top: -1rem;
+    margin-left: 1.1rem;
+  }
+
+  button {
+    width: 132px;
+    height: 25px;
     margin-top: 1rem;
     margin-left: 1.1rem;
-    color: white;
     font-size: 0.8rem;
   }
 
@@ -103,6 +207,14 @@
     margin-left: 1.2rem;
     margin-top: 1.2rem;
   }
+
+  .monthly,
+  .why {
+    margin-top: 0.9rem;
+    font-size: 1rem;
+    margin-left: 1.1rem;
+  }
+
   h4 {
     font-size: 0.8rem;
   }
@@ -112,14 +224,10 @@
     font-size: 0.7rem;
   }
 
-  .two,
-  table {
-    color: white;
-  }
-
   table {
     padding-left: 1rem;
     margin-top: -0.4rem;
     border-spacing: 0;
+    margin-left: 0;
   }
 }
